@@ -14,13 +14,16 @@ body {
 }
 
 input {
+  
   border: 1px solid transparent;
-  background-color: #414141;
+  background-color: white;
   padding: 10px;
   font-size: 16px;
 }
 
 input[type=text] {
+  /*serchbox background*/
+  color: whitesmoke;
   background-color: #414141;
   width: 100%;
 }
@@ -32,6 +35,7 @@ input[type=submit] {
 }
 
 .autocomplete-items {
+  color: whitesmoke;
   position: absolute;
   border: 1px solid #414141;
   border-bottom: none;
@@ -42,7 +46,9 @@ input[type=submit] {
   left: 0;
   right: 0;
 }
-
+p{
+  color: whitesmoke;
+}
 .autocomplete-items div {
   padding: 10px;
   cursor: pointer;
@@ -57,6 +63,6 @@ input[type=submit] {
 
 /*when navigating through the items using the arrow keys:*/
 .autocomplete-active {
-  background-color: #af0404 !important; 
-  color: #af0404; 
+  background-color: #5c000031 !important; 
+  color: white; 
 }
