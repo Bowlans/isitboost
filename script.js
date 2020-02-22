@@ -116,7 +116,6 @@ const wrapper = document.querySelector('.wrapper'),
     e.preventDefault();
     var formData =new FormData(form[0]);
 
-    alert();
     if(boostFrames.includes(document.getElementById('myInput').value)){
 
       window.location.pathname = 'yes.html';
