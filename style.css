@@ -1,7 +1,12 @@
 * {
   box-sizing: border-box;
 }
+p{
+    font-family: 'Tomorrow';
+color:#414141;
+  text-align: center;
 
+}
 body {
   font: 16px Arial;  
   background-color: #121212;
@@ -9,6 +14,7 @@ body {
 
 /*the container must be positioned relative:*/
 .autocomplete {
+  width: 70%;
   position: relative;
   display: inline-block;
 }
@@ -23,14 +29,17 @@ input {
 
 input[type=text] {
   /*serchbox background*/
-  color: whitesmoke;
+  font-family: 'Tomorrow';
+  color: #121212;
   background-color: #414141;
   width: 100%;
 }
 
 input[type=submit] {
+    font-family: 'Tomorrow';
+
   background-color: #af0404;
-  color: #414141;
+  color: #121212;
   cursor: pointer;
 }
 
@@ -65,4 +74,35 @@ p{
 .autocomplete-active {
   background-color: #5c000031 !important; 
   color: white; 
+}
+
+#parent {
+   display: table;
+   width: 100%;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-40%);
+  transform: translateY(-40%);
+}
+#search {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+ 
+}
+#foot{
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #af0404;
+  color: white;
+  text-align: center;
+}
+h1{
+  font-family: 'Tomorrow';
+  color: #af0404;
+  text-align: center;
+  font-size: 8vw;
 }
